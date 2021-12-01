@@ -5,9 +5,9 @@ using System.Text;
 
 namespace BearerAuth
 {
-    internal class JwtSecurityKey
+    public class JwtSecurityKey
     {
-        public IConfiguration Configuration;
+        internal static IConfiguration Configuration;
 
         public JwtSecurityKey(IConfiguration configuration)
         {
